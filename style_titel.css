@@ -1,0 +1,44 @@
+
+body{
+    background-image: url(bg\ \(1\).png);
+}
+
+nav{ 
+    position: absolute;
+    width: 100%;
+    left:50%;
+    top: 50%;
+    transform:  translate(-50%, -50%);
+}
+
+ul{
+    padding: 0;
+    margin-left: 10%;
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    margin-left: 3%;
+}
+
+a{
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    background-color: #004d00;
+    border:5px outset #001a00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    border: 5px inset #660000;
+    background-color: darkred;
+    color: white;
+}
+
