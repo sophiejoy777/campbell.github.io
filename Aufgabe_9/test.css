@@ -1,0 +1,118 @@
+
+body {
+    background-color: rgb(5, 71, 102);
+}
+
+h1 {
+    grid-area: header;
+    text-align: center;
+    font-size: calc(4vw + 2rem);
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.4);
+    letter-spacing: 2px;
+    margin: -0.3em 0 0.5em;
+  }
+
+.counter {
+    
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+.number {
+    position: absolute;
+    top: 20%;
+    left: 30.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+.todos {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.addButton {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    width: 120px;
+    height: 45px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newtask {
+    width: 400px;
+    height: 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Rahmen {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 400px;
+    height: 1000px;
+}
+
+.Template {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 400px;
+    height: 45px;
+    background-color: grey;
+}
+
+
+.firsttask {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    width: 320px;
+    height: 38px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+}
+
+.trash {
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+
+}
+
+.checkbox {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
+
+#done {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
